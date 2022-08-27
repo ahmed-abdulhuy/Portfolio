@@ -1,0 +1,25 @@
+[
+  {
+    "id": 0,
+    "title": "Bookish brief",
+    "visit": "",
+    "github": "https://github.com/ahmed-abdulhuy/bookish_brief",
+    "brief": "A ReactJS and Redux-based Web app that you could use to store notes about books. The website is created with Express and MySQL databases for the back end. The app's main functionalities of it are List all books with brief descriptions and book information and Filter books based on category."
+  },
+
+  {
+    "id": 1,
+    "title": "Meetings",
+    "visit": "https://elgarash.github.io/meetings/",
+    "github": "https://github.com/ElGarash/meetings",
+    "brief": "A serverless meetings web app with a dashboard. The website is hosted on GitHub Pages. It uses JITSI IFrame API to set the meetings. The possible functionalities of the website are Start meetings and manage contemporary meeting rooms, Send meeting participants and label data to the database using the Azure function API, and Stream the meeting on YouTube."
+  },
+
+  {
+    "id": 2,
+    "title": "Contextual Crossview Geo-Localization",
+    "visit": "",
+    "github": "",
+    "brief": "In my graduation project we built a deep neural network to compensate for the bad GPS signal-to-noise ratio. We bypassed the current state-of-the-art by 6.5%. This task is usually referred to as cross-view geo-localization in scientific literature. My team worked on a geo-localization system based on matching a query ground image with a set of aerial images with deep learning. We created a new benchmark dataset that includes temporal context information about the ground trajectories which target our solution. We used the Google Maps Static API to collect the satellite images in our dataset. Our research paper is in the review process to get published in the MDPI's Sensors Journal. The team is mentored by Prof. Mohammed Elhenawy from QUT University."
+  }
+]
