@@ -31,7 +31,7 @@ const Projects = () => {
   }
 
   return (
-    <div>
+    <div className='container'>
       {/* <div className={`project-details ${details}`}>
                 <img src={exit_icon} id="project-details-exit-icon" onClick={handelCloseDetails} />
                 {project?.title}
@@ -43,7 +43,7 @@ const Projects = () => {
           <div
             key={project.id}
             className="project-brief shadow"
-            // onClick={() => handelprojectClick(project)}
+          // onClick={() => handelprojectClick(project)}
           >
             <h4>{project.title}</h4>
             <p>{project.brief}</p>

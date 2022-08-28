@@ -7,7 +7,7 @@ const About = () => {
   let idx = -1
 
   return (
-    <div>
+    <div className="container">
       <div className="present-card">
         <h1>Hi, I'm Ahmed Abdelhuy from Egypt</h1>
         <p>
@@ -24,13 +24,18 @@ const About = () => {
           return (
             <div className="skills-card" key={idx}>
               <h2>{skillSetTitle[idx]}</h2>
-              <ul className="skills-card-groub">
-                {skillsSet.map((skill) => (
-                  <li className="shadow" key={skill}>
-                    <h3>{skill}</h3>
-                  </li>
-                ))}
-              </ul>
+              <div className="skills-card-groub">
+                <ul>
+                  {skillsSet.map((skill) => (
+                    <li className="shadow" key={skill}>
+                      <strong>
+                        {skill}
+                      </strong>
+                    </li>
+                  ))}
+                </ul>
+
+              </div>
             </div>
           )
         })}
