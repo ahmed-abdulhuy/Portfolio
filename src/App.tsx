@@ -3,6 +3,7 @@ import NaveBar from "./layout/naveBar";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import About from "./pages/about";
+import Resume from "./components/Resume";
 
 const App = () => {
   const routBase = "Portfolio";
@@ -14,6 +15,7 @@ const App = () => {
         <Route path={`${routBase}/`} element={<Home />}></Route>
         <Route path={`${routBase}/about`} element={<About />}></Route>
         <Route path={`${routBase}/projects`} element={<Projects />}></Route>
+        <Route path={`${routBase}/resume`} element={<Resume />}></Route>
       </Routes>
     </Router>
   );

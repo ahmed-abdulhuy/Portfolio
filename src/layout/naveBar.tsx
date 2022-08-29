@@ -14,6 +14,10 @@ const NaveBar = () => {
       <Link className="link" to={`${routBase}/projects`}>
         Projects
       </Link>
+      <Link className="link" to={`${routBase}/resume`}>
+        Resume
+      </Link>
+
     </div>
   )
 }
