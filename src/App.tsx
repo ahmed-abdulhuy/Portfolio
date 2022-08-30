@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NaveBar from "./layout/naveBar";
+// import Footer from "./layout/footer";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import About from "./pages/about";
@@ -17,6 +18,7 @@ const App = () => {
         <Route path={`${routBase}/projects`} element={<Projects />}></Route>
         <Route path={`${routBase}/resume`} element={<Resume />}></Route>
       </Routes>
+      {/* <Footer /> */}
     </Router>
   );
 };

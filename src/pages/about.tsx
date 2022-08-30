@@ -17,12 +17,12 @@ const About = () => {
         </p>
       </div>
 
-      <div className="skills">
+      <div className="skills container--flex">
         <h1>Skills</h1>
         {[langs, mlTools, FEFrameWork, tools].map((skillsSet) => {
           idx += 1
           return (
-            <div className="skills-card" key={idx}>
+            <div className="skills-card container--flex" key={idx}>
               <h2>{skillSetTitle[idx]}</h2>
               <div className="skills-card-groub">
                 <ul>
