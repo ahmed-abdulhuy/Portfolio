@@ -1,9 +1,9 @@
 const About = () => {
-  const langs = ['Python', 'C/C++', 'MATLAB/Octave', 'JavaScript', 'HTML', 'CSS', 'MySQL']
+  const langs = ['Python', 'C/C++', 'MATLAB/Octave', 'JavaScript', 'HTML', 'CSS', 'PostgreSQL']
   const mlTools = ['Numpy', 'Tensorflow', 'Keras', 'OpenCV', 'Matplotlib']
-  const FEFrameWork = ['ReactJS']
-  const tools = ['Git', 'Linux', 'Github']
-  const skillSetTitle = ['Programming Languages:', 'Machine Learning tools:', 'Front-end Framework:', 'Development Tools:']
+  const FEFrameWork = ['ReactJS', 'Redux', 'Express', 'Node.js', 'D3.js']
+  const tools = ['Git', 'Linux', 'Github', 'Gulp', 'Docker']
+  const skillSetTitle = ['Programming Languages:', 'Machine Learning tools:', 'Front-end Tools:', 'Development Tools:']
   let idx = -1
 
   return (
