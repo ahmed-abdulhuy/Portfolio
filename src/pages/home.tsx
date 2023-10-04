@@ -1,4 +1,4 @@
-import homeLogo from "../Assets/home-main.svg"
+import personalImage from "../Assets/PersonalImageBlack.png"
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className="home-svg">
         <img
-          src={homeLogo}
+          src={personalImage}
           alt="home pic"
           className="img-fluid"
           style={{ maxHeight: "450px" }}
