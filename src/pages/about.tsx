@@ -6,7 +6,6 @@ const About = () => {
   const knowledge = [ 'Web Development', 'Data Visualization', 'Data Analysis', 'Deep Learning', 'Computer Vision' ]
   const testingPractices = ['UI-tests', 'Unit-tests']
   const math = ['Algebra', 'Linear Algebra', 'Calculus', 'Probability and Statistics', 'Discrete Mathematics']
-  const contact = ['Email', 'LinkedIn', 'Github', 'Twitter', 'Facebook', 'Instagram']
   const skillSetTitle = [
                         'Knowledge:', 
                         'Programming Languages:', 
