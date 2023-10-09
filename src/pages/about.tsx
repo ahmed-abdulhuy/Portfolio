@@ -1,25 +1,45 @@
 const About = () => {
-  const langs = ['Python', 'C/C++', 'MATLAB/Octave', 'JavaScript', 'HTML', 'CSS', 'PostgreSQL']
+  const langs = ['Python', 'C/C++', 'MATLAB/Octave', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'PostgreSQL']
   const mlTools = ['Numpy', 'Tensorflow', 'Keras', 'OpenCV', 'Matplotlib']
-  const FEFrameWork = ['ReactJS', 'Redux', 'Express', 'Node.js', 'D3.js']
+  const FEFrameWork = ['ReactJS', 'Redux', 'Express', 'Node.js', 'Nightwatch.js', 'D3.js', 'C3.js']
   const tools = ['Git', 'Linux', 'Github', 'Gulp', 'Docker']
-  const skillSetTitle = ['Programming Languages:', 'Machine Learning tools:', 'Front-end Tools:', 'Development Tools:']
+  const knowledge = [ 'Web Development', 'Data Visualization', 'Data Analysis', 'Deep Learning', 'Computer Vision' ]
+  const testingPractices = ['UI-tests', 'Unit-tests']
+  const math = ['Algebra', 'Linear Algebra', 'Calculus', 'Probability and Statistics', 'Discrete Mathematics']
+  const contact = ['Email', 'LinkedIn', 'Github', 'Twitter', 'Facebook', 'Instagram']
+  const skillSetTitle = [
+                        'Knowledge:', 
+                        'Programming Languages:', 
+                        'Machine Learning tools:', 
+                        'Front-end Tools:', 
+                        'Development Tools:',
+                        'Testing Practices:',
+                        'Math:',
+                      ]
   let idx = -1
 
   return (
     <div className="container">
       <div className="present-card">
-        <h1>Hi, I'm Ahmed Abdelhuy from Egypt</h1>
+        <h1>Hi, I'm Ahmed Abdelhay from Egypt</h1>
+        <h2>I live in Riyadh, Saudi Arabia</h2>
         <p>
+          I have a Bachelor degree in <strong>computer engineer.</strong> <br />
+        </p>
+        <p>
+          I work as a junior front-end web developer at a SaSS startup called Visyond <br />
+          located in London, UK. <br />
+        </p>
+        {/* <p>
           I'm a junior front-end web developer, <br />
           I'm a fresh graduate student from Minia university <br />
           faculty of engineering computeter and system department.
-        </p>
+        </p> */}
       </div>
 
       <div className="skills container--flex">
         <h1>Skills</h1>
-        {[langs, mlTools, FEFrameWork, tools].map((skillsSet) => {
+        {[knowledge, langs, mlTools, FEFrameWork, tools, testingPractices, math].map((skillsSet) => {
           idx += 1
           return (
             <div className="skills-card container--flex" key={idx}>
@@ -39,63 +59,7 @@ const About = () => {
             </div>
           )
         })}
-
-        {/* <div className="prog-lang">
-                    <h2>Programming Languages</h2>
-                    <ul>
-                        {
-                            langs.map((lang) => (
-                                <li>
-                                    <h3>{lang}</h3>
-
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div>
-
-                <div className="ml-tools">
-                    <ul>
-                        <h2>Machine Learning tools</h2>
-                        {
-                            mlTools.map((mlTool) => (
-                                <li>
-                                    <h3>{mlTool}</h3>
-
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div className="fe-framework">
-                    <ul>
-                        <h2>Front-end Framework</h2>
-                        {
-                            FEFrameWork.map((framework) => (
-                                <li>
-                                    <h3>{framework}</h3>
-
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div className="tools">
-                    <ul>
-                        <h2>Machine Learning tools</h2>
-                        {
-                            tools.map((tool) => (
-                                <li>
-                                    <h3>{tool}</h3>
-
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div> */}
       </div>
-
-      <div className="projects"></div>
     </div>
   )
 }

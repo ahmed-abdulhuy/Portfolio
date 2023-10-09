@@ -17,9 +17,9 @@
 
   {
     "id": 2,
-    "title": "Contextual Crossview Geo-Localization",
-    "visit": "",
+    "title": "Leveraging cross-view geo-localization with ensemble learning and temporal awareness",
+    "visit": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283672",
     "github": "",
-    "brief": "In my graduation project we built a deep neural network to compensate for the bad GPS signal-to-noise ratio. We bypassed the current state-of-the-art by 6.5%. This task is usually referred to as cross-view geo-localization in scientific literature. My team worked on a geo-localization system based on matching a query ground image with a set of aerial images with deep learning. We created a new benchmark dataset that includes temporal context information about the ground trajectories which target our solution. We used the Google Maps Static API to collect the satellite images in our dataset. Our research paper is in the review process to get published in the MDPI's Sensors Journal. The team is mentored by Prof. Mohammed Elhenawy from QUT University."
+    "brief": "In this paper, it is shown that previous models in this area are complementary, not competitive, and that each model solves a different aspect of the problem. There was a need for a holistic approach. An ensemble model is proposed to aggregate the predictions of multiple independently trained state-of-the-art models. Previous state-of-the-art (SOTA) temporal-aware models used heavy-weight network to fuse the temporal information into the query process. The effect of making the query process temporal-aware is explored and exploited by an efficient meta block: naive history. But none of the existing benchmark datasets was suitable for extensive temporal awareness experiments, a new derivative dataset based on the BDD100K dataset is generated. The proposed ensemble model achieves a recall accuracy R@1 (Recall@1: the top most prediction) of 97.74% on the CVUSA dataset and 91.43% on the CVACT dataset (surpassing the current SOTA). The temporal awareness algorithm converges to R@1 of 100% by looking at a few steps back in the trip history."
   }
 ]

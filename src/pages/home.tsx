@@ -6,7 +6,7 @@ const Home = () => {
       <div className="bio">
         <h2>Hi I'm Ahmed</h2>
         <p>
-          I'm a fresh graduate <strong>computer engineer.</strong> <br />
+          I have a bachelor degree in <strong>computer engineer.</strong> <br />
           Passionate about solving tech problems <br />
           Mainly interested in{' '}
           <strong>
