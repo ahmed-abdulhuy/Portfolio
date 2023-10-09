@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a02fd7b3.css",
-    "main.js": "/Portfolio/static/js/main.ddeaa518.js",
+    "main.js": "/Portfolio/static/js/main.1794a4d7.js",
     "static/media/Ahmed-Abdulhuy-rusem.pdf": "/Portfolio/static/media/Ahmed-Abdulhuy-rusem.6361a6570668e439cda8.pdf",
     "static/media/background.jpg": "/Portfolio/static/media/background.9a917ab7bc9655a99749.jpg",
     "static/media/PersonalImageBlack.png": "/Portfolio/static/media/PersonalImageBlack.95f3add7f3c9f2a285e0.png",
@@ -9,10 +9,10 @@
     "static/media/visit-icon.png": "/Portfolio/static/media/visit-icon.53629b9e39f84ada0fc8.png",
     "index.html": "/Portfolio/index.html",
     "main.a02fd7b3.css.map": "/Portfolio/static/css/main.a02fd7b3.css.map",
-    "main.ddeaa518.js.map": "/Portfolio/static/js/main.ddeaa518.js.map"
+    "main.1794a4d7.js.map": "/Portfolio/static/js/main.1794a4d7.js.map"
   },
   "entrypoints": [
     "static/css/main.a02fd7b3.css",
-    "static/js/main.ddeaa518.js"
+    "static/js/main.1794a4d7.js"
   ]
 }
